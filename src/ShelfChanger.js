@@ -22,7 +22,7 @@ class ShelfChanger extends Component {
     return (
       <div className="book-shelf-changer">
         <select onChange={this.updBookShelf} defaultValue={currentShelf}>
-          <option value="none" disabled>
+          <option value="moveto" disabled> 
             Move to...
           </option>
           <option value="currentlyReading">Currently Reading</option>
